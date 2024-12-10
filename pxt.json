@@ -1,19 +1,16 @@
 {
-    "name": "trailer lights",
+    "name": "py3",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*",
-        "neopixel": "github:microsoft/pxt-neopixel#v0.7.6"
+        "microphone": "*"
     },
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
-    ],
-    "testFiles": [
-        "test.ts"
+        "README.md",
+        "custom.ts"
     ],
     "targetVersions": {
         "target": "7.0.51",
