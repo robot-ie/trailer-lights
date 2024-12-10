@@ -17,3 +17,8 @@ function init() {
 
 let strip : neopixel.Strip = null
 init()
+basic.forever(function rotate() {
+    strip.rotate(1)
+    strip.show()
+    basic.pause(100)
+})
