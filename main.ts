@@ -1,2 +1,2 @@
-
-basic.showNumber(0)
+let gfg = new xmas.OneLightPattern()
+basic.showNumber(4)
